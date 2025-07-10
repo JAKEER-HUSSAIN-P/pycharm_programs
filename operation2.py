@@ -1,0 +1,13 @@
+li=open("C:/Users/Lenovo/OneDrive/Desktop/example.txt",'w')
+txt=input("Enter Text")
+li.write(txt)
+li.close()
+l1=open("C:/Users/Lenovo/OneDrive/Desktop/example.txt",'r')
+print("data in text File : '",l1.read(),"'")
+l1.close()
+l2=open("C:/Users/Lenovo/OneDrive/Desktop/example.txt",'a')
+l2.write("namsthe")
+
+l2.close()
+l2=open("C:/Users/Lenovo/OneDrive/Desktop/example.txt",'r')
+print("data in text File after appending : '",l2.read(),"'")
